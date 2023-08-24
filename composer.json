@@ -1,0 +1,21 @@
+{
+    "name": "derasoft/practice-php2023",
+    "description": "Luyện tập với hướng đối tượng, các kiểu truy cập",
+    "license": "1.0",
+    "autoload": {
+        "psr-4": {
+            "Classes\\": "classes/",
+            "Controllers\\": "controllers/",
+            "Models\\": "models/",
+            "Library\\": "library/",
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "VoDangVinh2000"
+        }
+    ],
+    "require": {},
+    "minimum-stability": "dev"
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+        integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/metismenu/dist/metisMenu.min.css">
+</head>
+
+<body>
+    <h1>Menu multi level</h1>
+    <ul id="metismenu" class="w-25">
+        <li class="mm-active">
+            <a class="has-arrow d-block" href="#" aria-expanded="false">Menu 1</a>
+            <ul>
+                <li><a href="#">Slide</a></li>
+                <li><a href="#">Slide 2</a></li>
+                <li><a href="#">Slide 3</a></li>
+            </ul>
+        </li>
+        <li>
+            <a class="has-arrow d-block" href="#" aria-expanded="false">Menu 2</a>
+            <ul>
+                <li><a href="#">Slide 4</a></li>
+                <li><a href="#">Slide 5</a></li>
+                <li><a href="#">Slide 6</a></li>
+            </ul>
+        </li>
+    </ul>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/metismenu"></script>
+<script>
+    $(document).ready(function () {
+        $("#metismenu").metisMenu();
+    });
+</script>
+
+</html>
