@@ -11,12 +11,22 @@
             "App\\": "app/"
         }
     },
+    "repositories": [
+        {
+            "url": "https://github.com/VoDangVinh2000/php_schema"
+        }
+    ],
     "authors": [
         {
             "name": "VoDangVinh2000"
         }
     ],
     "require": {
-        "vendor/php_schema": "1.0.0"
+        "symfony/php_schema": "1.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
     }
 }
