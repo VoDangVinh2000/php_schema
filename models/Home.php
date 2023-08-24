@@ -5,7 +5,7 @@ use Library\Schema;
 
 class Home{
     public function select(){
-        Schema::dropIfExists('abouts');
-        Schema::dropColumn('status_sign');
+        #updated 24/04/2023
+        echo 'composer require';
     }
 }
